@@ -12,8 +12,13 @@ var person = {
     }
 };
 
-// you can access the properties of an object with a dot
-person.greet();
+
+// access the properties by objectname.propertyname
+console.log(person.firstName);
+console.log(person.lastName);
 
 // Alternatively you can also access the properties and methods of an object using their names.
 console.log("firstName = " + person['firstName']);
+
+// you can access the properties of an object with a dot
+person.greet();
