@@ -1,0 +1,33 @@
+
+
+Objects
+=======
+
+In JavaScript eveything is an object.Primitives are also objects.
+
+Primitives:
+Boolean
+Number
+String
+null
+undefined
+
+How to create an object?
+
+Boolean var x1 = new Boolean();
+Number var x1 = new Number();
+String var x1 = new String();
+Date var x1 = new Date();
+RegExp var x1 = new RegExp();
+Function var x1 = new Function();
+Object var x1 = new Object();
+
+In JavaScript objects can be created in the following ways:
+1. new keyword
+2. object literal
+3. constructor
+
+Object methods:
+Methods can only be added in a constructor. Methods cannot be added on the fly.
+
+Object Prototype:
