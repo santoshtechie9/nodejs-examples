@@ -1,0 +1,39 @@
+
+NPM:
+
+Package:
+Package is code. It is managed and maintained by a package management system.
+
+Package Management System:
+A software that automates installing, maintaining and updating packages.
+It deals wth the versions. It manages dependencies.
+
+Semantic versioning:
+Set of rules for specifying the version of a set of code.
+
+format is Major.Minor.Patch
+            1.7.3
+refer to semver.org for more details.
+
+NPM means two things.
+package manager: one the program that manages the packages.
+package registry: second the collection of packages.
+
+NPM is the package manages for JavaScript. When you run npm intall the package manages downloads code 
+from the package registry.
+
+refer to npmjs.com for more details on registry.
+
+Steps to use nmp, download a package from registry.
+1. go to the app directory.
+2. type init
+3. find a package on npmjs.com
+4. type npm install <packageName> -- save (saves the package name in package.json)
+
+npm install <packageName> -- save (saves the package name in package.json)
+
+npm install jasmine0node --save-dev (saves the package name under dev dependencies)
+
+npm install -g nodemon (-g installs the package globally. The package is available for all the apps in th computer)
+
+npm update (checks for newer version and updates the packages)
