@@ -1,0 +1,23 @@
+
+ECMAScript 2015 (ES6) and beyond:
+Node.js is built against modern versions of V8. By keeping up-to-date with the latest releases of this engine, we ensure new features from the JavaScript ECMA-262 specification are brought to Node.js developers in a timely manner, as well as continued performance and stability improvements.
+
+All ECMAScript 2015 (ES6) features are split into three groups for shipping, staged, and in progress features:
+
+All shipping features, which V8 considers stable, are turned on by default on Node.js and do NOT require any kind of runtime flag.
+Staged features, which are almost-completed features that are not considered stable by the V8 team, require a runtime flag: --harmony.
+In progress features can be activated individually by their respective harmony flag, although this is highly discouraged unless for testing purposes. Note: these flags are exposed by V8 and will potentially change without any deprecation notice.
+
+
+Which features are in progress?
+You may list all the in progress features available on each Node.js release by grepping through the --v8-options argument. 
+node --v8-options | grep "in progress"
+
+How do I find which version of V8 ships with a particular version of Node.js?
+Node.js provides a simple way to list all dependencies and respective versions that ship with a specific binary through the process global object. 
+node -p process.versions.v8
+
+
+
+Reference Link:
+https://nodejs.org/en/docs/es6/
