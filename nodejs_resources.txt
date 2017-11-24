@@ -8,3 +8,16 @@ https://thenewboston.com/videos.php?cat=355&video=29992
 Online tools to practis nodejs
 ==============================
 https://codepad.remoteinterview.io
+
+
+1. Create a form in angular js
+2. Add bootstrap dependency in Angular js
+3. Create a RESTful service using Express which will talk to a DB
+4. Link the Angular js code with the node js service so that they can talk to each other
+
+Reference links for the above task:
+https://stackoverflow.com/questions/35699095/how-to-pass-data-from-angularjs-frontend-to-nodejs-backend
+https://stackoverflow.com/questions/33162038/sending-post-form-data-from-angularjs-client-to-express-node-js-server
+
+
+http://adrianmejia.com/blog/2014/09/28/angularjs-tutorial-for-beginners-with-nodejs-expressjs-and-mongodb/
